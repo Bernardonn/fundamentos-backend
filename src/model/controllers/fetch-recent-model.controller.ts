@@ -1,6 +1,6 @@
 
 import { Controller, Get, HttpCode } from "@nestjs/common";
-import { FetchRecentModelService } from "./fetch.recent.models.service";
+import { FetchRecentModelService } from "../services/fetch.recent.models.service";
 
 @Controller('/models/all')
 export class FetchRecentModelController {
